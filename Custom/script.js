@@ -25,7 +25,7 @@ console.log(result);
 
 
 
-const myArr1 = [6, 1, 2, 6, 4];
+const arr1 = [6, 1, 2, 6, 4];
 
 
 const pushFunc = function (arr, index, value) {
@@ -43,6 +43,6 @@ const pushFunc = function (arr, index, value) {
     }
     return NewArr;
 }
-const result1 = pushFunc(myArr1, 7, `Salam`);
+const result1 = pushFunc(arr1, 7, `Salam`);
 
 console.log(result1);
